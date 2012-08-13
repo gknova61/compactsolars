@@ -18,6 +18,7 @@ public enum CompactSolarType {
 	LV(8, "Low Voltage Solar Array", "lvTransformer", TileEntityCompactSolar.class),
 	MV(64, "Medium Voltage Solar Array", "mvTransformer", TileEntityCompactSolarMV.class),
 	HV(512, "High Voltage Solar Array", "hvTransformer", TileEntityCompactSolarHV.class);
+	EV(2048, "Extreme Voltage Solar Array", "hvTransformer", TileEntityCompactSolarEV.class);
 
 	private int output;
 	public Class<? extends TileEntityCompactSolar> clazz;

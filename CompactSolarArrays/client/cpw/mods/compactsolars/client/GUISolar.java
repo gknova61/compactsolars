@@ -23,7 +23,8 @@ public class GUISolar extends GuiContainer {
 	public enum GUI {
 		LV(CompactSolarType.LV),
 		MV(CompactSolarType.MV),
-		HV(CompactSolarType.HV);
+		HV(CompactSolarType.HV),
+		EV(CompactSolarType.EV);
 		
 		private CompactSolarType mainType;
 
