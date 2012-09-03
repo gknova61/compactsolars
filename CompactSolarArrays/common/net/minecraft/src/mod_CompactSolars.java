@@ -53,7 +53,7 @@ public class mod_CompactSolars extends NetworkMod {
 			scale.comment="The EU generation scaling factor. " +
 					"The average number of ticks needed to generate one EU packet." +
 					"1 is every tick, 2 is every other tick etc. " +
-					"Each Solar will still generate a whole packet (8, 64, 512 EU).";
+					"Each Solar will still generate a whole packet (8, 64, 512, 2048 EU).";
 			productionRate = scale.getInt(1);
 		} catch (Exception e) {
 			ModLoader.getLogger().severe("CompactSolars was unable to load it's configuration successfully");
